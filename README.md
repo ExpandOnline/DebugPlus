@@ -18,7 +18,16 @@ Requirements
 Installation
 ------------
 
-To install the plugin, clone the repository into your `app/Plugin` directory:
+**Using Composer**
+
+The easiest way to install the Plugin is by using [Composer](https://getcomposer.org/).
+The Plugin is available through the Packagist website. To install using composer, simply run:
+
+`php composer.phar require oldskool/debug-plus:dev-master`
+
+**Manual**
+
+To manually install the plugin, clone the repository into your `app/Plugin` directory:
 
 ```
 # cd app/Plugin
