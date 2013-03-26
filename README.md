@@ -23,7 +23,9 @@ Installation
 The easiest way to install the Plugin is by using [Composer](https://getcomposer.org/).
 The Plugin is available through the Packagist website. To install using composer, simply run:
 
-`php composer.phar require oldskool/debug-plus:dev-master`
+```
+php composer.phar require oldskool/debug-plus:dev-master
+```
 
 **Manual**
 
