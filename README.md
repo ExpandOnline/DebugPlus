@@ -36,6 +36,12 @@ To manually install the plugin, clone the repository into your `app/Plugin` dire
 # git clone git://github.com/oldskool/DebugPlus.git
 ```
 
+Finally, load the plugin from your `app/Config/bootstrap.php`, by adding the following line:
+
+```php
+CakePlugin::load('DebugPlus');
+```
+
 Usage
 -----
 
