@@ -5,7 +5,7 @@ A CakePHP plugin containing additional panels for the DebugKit Toolbar.
 
 Currently, the plugin has just one panel:
 
-* Logfile Panel
+1. Logfile Panel - Retrieve the last few lines of all the files under `app/tmp/logs`, similar to a `tail`.
 
 More panels might follow later.
 
