@@ -58,7 +58,6 @@ class LogfilePanel extends DebugPanel {
 				continue;
 			}			
 			$data[$name]['lastChange'] = date('Y-m-d H:i:s', $file->lastChange());
-			$data[$name]['size'] = $file->size();
 			if ($file->size() > $this->readBytes) {
 				$file->offset(-$this->readBytes, SEEK_END);
 			}
