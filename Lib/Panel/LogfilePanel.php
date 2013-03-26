@@ -52,11 +52,11 @@ class LogfilePanel extends DebugPanel {
 		foreach ($files as $log) {
 			$file = new File(LOGS . $log);
 			$name = $file->name();
+			$data[$name] = array();
 			if (!$file->readable()) {
 				$data[$name]['content'] = __('This log file is unreadable.');
 				continue;
-			}
-			$data[$name] = array();
+			}			
 			$data[$name]['lastChange'] = date('Y-m-d H:i:s', $file->lastChange());
 			$data[$name]['size'] = $file->size();
 			if ($file->size() > $this->readBytes) {
