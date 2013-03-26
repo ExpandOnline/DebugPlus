@@ -1,12 +1,12 @@
 {
     "name": "oldskool/debug-plus",
-	"type": "cakephp-plugin",
+    "type": "cakephp-plugin",
     "description": "A CakePHP plugin containing additional panels for the DebugKit Toolbar.",
-	"homepage": "http://github.com/oldskool/DebugPlus",
-	"license": "MIT",
+    "homepage": "http://github.com/oldskool/DebugPlus",
+    "license": "MIT",
     "require": {
-		"php": ">=5.2.8",
-		"composer/installers": "*",
+        "php": ">=5.2.8",
+        "composer/installers": "*",
         "cakephp/debug_kit": "dev-master"
     }
 }
