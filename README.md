@@ -40,7 +40,7 @@ With:
 ```php
 public $components = array('DebugKit.Toolbar', array(
     'panels' => array('DebugPlus.PanelName')
-);
+));
 ```
 
 Where `PanelName` is the name of the panel you want to load. For example, if you want to use the Logfile panel, you would load it using:
@@ -48,5 +48,5 @@ Where `PanelName` is the name of the panel you want to load. For example, if you
 ```php
 public $components = array('DebugKit.Toolbar', array(
     'panels' => array('DebugPlus.Logfile')
-);
+));
 ```
