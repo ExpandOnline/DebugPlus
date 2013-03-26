@@ -1,5 +1,5 @@
 {
-    "name": "oldskool/DebugPlus",
+    "name": "oldskool/debug-plus",
 	"type": "cakephp-plugin",
     "description": "A CakePHP plugin containing additional panels for the DebugKit Toolbar.",
 	"homepage": "http://github.com/oldskool/DebugPlus",
