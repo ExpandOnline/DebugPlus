@@ -12,6 +12,7 @@ More panels might follow later.
 Requirements
 ------------
 
+* CakePHP 2.x
 * A working [CakePHP DebugKit](https://github.com/cakephp/debug_kit) installation
 
 Installation
