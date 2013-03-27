@@ -3,9 +3,10 @@ DebugPlus
 
 A CakePHP plugin containing additional panels for the DebugKit Toolbar.
 
-Currently, the plugin has just one panel:
+Currently, the plugin has two panels:
 
 1. Logfile Panel - Retrieve the last few lines of all the files under `app/tmp/logs`, similar to a `tail`.
+2. Modelview Panel - Allows you to view the Model associated with the current Controller and it's associations
 
 More panels might follow later.
 
@@ -67,3 +68,5 @@ public $components = array('DebugKit.Toolbar', array(
     'panels' => array('DebugPlus.Logfile')
 ));
 ```
+
+You can also use multiple panels at once. Just extend the array with as many panels you want to activate.
