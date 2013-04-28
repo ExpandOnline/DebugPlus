@@ -56,7 +56,7 @@ public $components = array('DebugKit.Toolbar');
 With:
 
 ```php
-public $components = array('DebugKit.Toolbar', array(
+public $components = array('DebugKit.Toolbar' => array(
     'panels' => array('DebugPlus.PanelName')
 ));
 ```
@@ -64,7 +64,7 @@ public $components = array('DebugKit.Toolbar', array(
 Where `PanelName` is the name of the panel you want to load. For example, if you want to use the Logfile panel, you would load it using:
 
 ```php
-public $components = array('DebugKit.Toolbar', array(
+public $components = array('DebugKit.Toolbar' => array(
     'panels' => array('DebugPlus.Logfile')
 ));
 ```
