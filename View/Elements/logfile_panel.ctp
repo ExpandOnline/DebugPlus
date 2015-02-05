@@ -11,6 +11,6 @@ foreach (array_keys($content) as $log) {
 	<?php if (array_key_exists('lastChange', $data)): ?>
 	<span><?php echo __(' (Last changed: %s)', $data['lastChange']); ?></span>
 	<?php endif; ?>
-	<pre><?php echo $data['content']; ?></pre>
+	<pre><?php echo h($data['content']); ?></pre>
 	<hr/>
 <?php endforeach; ?>
