@@ -7,6 +7,6 @@
     "require": {
         "php": ">=5.2.8",
         "composer/installers": "*",
-        "cakephp/debug_kit": "dev-master"
+        "cakephp/debug_kit": "2.*"
     }
 }
